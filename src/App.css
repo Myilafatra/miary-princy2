@@ -3,8 +3,9 @@ nav {
   height: 100px;
   text-align: center;
 }
-Link{
+a{
   color: white !important;
+  text-decoration: none;
 }
 nav li {
 	display: inline;

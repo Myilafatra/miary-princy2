@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import  Accueil from './composant/accueil/accueil';
-import  Apropos from './composant/apropos/apropos';
-import  Contact from './composant/contact/contact';
-import   './composant/accueil/accueil.css';
-import  './composant/apropos/apropos.css';
-import  './composant/contact/contact.css';
+import  Accueil from './Component/accueil/accueil';
+import  Apropos from './Component/apropos/apropos';
+import  Contact from './Component/contact/contact';
+import   './Component/accueil/accueil.css';
+import  './Component/apropos/apropos.css';
+import  './Component/contact/contact.css';
 import './App.css';
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
                 <nav>
                   <ul>
                     <li>
-                      <Link to="/">Accueil</Link>
+                      <a><Link to="/">Accueil</Link></a>
                     </li>
                     <li>
                       <Link to="/about">Apropos</Link>
